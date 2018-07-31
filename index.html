@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <header>
+            <h1> Doggie funny collage </h1>
+        </header>
+    
+        <section id="containerImage">
+
+            <div id="image">
+                <div class="contenedorImagen" id="uno" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+                <div class="contenedorImagen" id="dos" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+                <div class="contenedorImagen" id="tres" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+                <div class="contenedorImagen" id="cuatro" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+            </div>  
+
+            <div id="contenedorImagenes" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+                <img id="pieza3" src="assets/images/afgano.jpg" alt="afgano" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza2" src="assets/images/beagle.jpg" alt="beagle" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza4" src="assets/images/boxer.jpg" alt="boxer" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza1" src="assets/images/bulldog.jpg" alt="bulldog" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza5" src="assets/images/chihuahua.jpg" alt="chihuahua" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza6" src="assets/images/doberman.jpg" alt="doberman" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza7" src="assets/images/san-bernardo.jpg" alt="san-bernardo" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza8" src="assets/images/golden.jpg" alt="golden" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza9" src="assets/images/gran-danes.jpg" alt="gran-danes" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza10" src="assets/images/labrador.jpg" alt="labrador" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza11" src="assets/images/pastor aleman.jpg" alt="pastor aleman" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza12" src="assets/images/pinscher.jpg" alt="pinscher" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza13" src="assets/images/pitbull.jpg" alt="pitbull" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza14" src="assets/images/pug.jpg" alt="pug" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza15" src="assets/images/salchicha.jpg" alt="salchicha" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+                <img id="pieza16" src="assets/images/shiba.jpg" alt="shiba" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            </div>
+
+        </section>
+        <script src="js/app.js"></script>
+        <script src="js/touch.js"></script>
+</body>
+</html>
